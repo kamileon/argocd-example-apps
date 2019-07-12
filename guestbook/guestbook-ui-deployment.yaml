@@ -19,6 +19,4 @@ spec:
         ports:
         - containerPort: 80
   strategy:
-    canary: #Indicates that the rollout should use the Canary strategy
-      maxSurge: "25%"
-      maxUnavailable: 0
+    canary:
